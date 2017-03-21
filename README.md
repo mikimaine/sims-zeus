@@ -3,9 +3,9 @@
 
 #Description
  This malaware is amazing. 
- Just look around and if you to want to build the solution but you dont know how: send me an email @ mikias.amdu@gmail.com / create issue.
+ Just look around and if you want to build the solution but you dont know how: send me an email @ create issue.
 
- Only one thing i cant direct is: please configure the solution builder in build_full.cmd and also in Output/builder/congi.txt file.
+ Only one thing i cant say is: please configure the solution builder in build_full.cmd and also in Output/builder/congi.txt file.
 
  You can find the php Script inside Source/server[php]
 #Tools 
@@ -23,7 +23,7 @@
 I will put out compressed verison of every tools if you need. (To make the git repo size small i didn't include all tools)
 You can check how much i have ignored from .gitignore file
 #Warning 
- I have use a lot of tools comined including non-legal. 
+Non-legal tools are included . 
 
 ## ***** For Educational purpose ONLY ***** 
 
