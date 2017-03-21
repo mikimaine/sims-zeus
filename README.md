@@ -5,7 +5,7 @@
  This malaware is amazing. 
  Just look around and if you to want to build the solution but you dont know how: send me an email @ mikias.amdu@gmail.com / create issue.
 
- Only one thing i cant direct is: please configure the solution builder in build_full.cmd and also in Release/builder/congi.txt file.
+ Only one thing i cant direct is: please configure the solution builder in build_full.cmd and also in Output/builder/congi.txt file.
 
  You can find the php Script inside Source/server[php]
 #Tools 
