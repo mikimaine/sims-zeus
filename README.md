@@ -21,8 +21,8 @@
 - and more ....
 
 I will put out compressed verison of every tools if you need. (To make the git repo size small i didn't include all tools)
-
-##Warning 
+You can check how much i have ignored from .gitignore file
+#Warning 
  I have use a lot of tools comined including non-legal. 
 
 ## ***** For Educational purpose ONLY ***** 
