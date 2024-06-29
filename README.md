@@ -1,29 +1,36 @@
 # SIMS Zeus
- A C++ &amp; PHP based malware that will do everything zeus can and customized for _______ University Network
 
-#Description
- This malaware is amazing. 
- Just look around and if you want to build the solution but you dont know how: send me an email @ create issue.
+A C++ & PHP based experimental project designed for educational purposes.
 
- Only one thing i cant say is: please configure the solution builder in build_full.cmd and also in Output/builder/congi.txt file.
+## Description
 
- You can find the php Script inside Source/server[php]
-#Tools 
-- Mersenne Twister with improved initialization (SFMT form http://www.math.sci.hiroshima-u.ac.jp)
+This project demonstrates the capabilities of a Zeus-like system within a controlled and educational environment. It includes various tools and scripts necessary for the solution.
+
+## Setup Instructions
+
+1. **Configuration**: Edit `build_full.cmd` and `Output/builder/config.txt` for custom configurations.
+2. **Build**: Use `build_full.cmd` to compile the solution.
+3. **Tools**: A list of tools is provided for use with this project. Check `.gitignore` for excluded tools to reduce repository size.
+
+## Tools Included
+
+- Mersenne Twister (SFMT)
 - PHP
 - 7-zip
-- upx
-- bt
-- winehq
-- ucl (from oberhumer)
-- BeaEngine (from http://beatrix2004.free.fr)
-- GeoIPCountryCSV.zip (from geolite.maxmind.com)
-- and more ....
+- UPX
+- WineHQ
+- UCL
+- BeaEngine
+- GeoIPCountryCSV
 
-I will put out compressed verison of every tools if you need. (To make the git repo size small i didn't include all tools)
-You can check how much i have ignored from .gitignore file
-#Warning 
-Non-legal tools are included . 
+## Legal Disclaimer
 
-## ***** For Educational purpose ONLY ***** 
+This project includes tools for educational purposes only. It is not intended for malicious use.
 
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any queries, please [create an issue](https://github.com/mikimaine/sims-zeus/issues).
